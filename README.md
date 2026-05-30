@@ -152,7 +152,7 @@ The platform simulates how modern organizations process customer transactions in
 ---
 # Clone repository
 
-git clone <your-repo-url>
+git clone url
 
 cd real-time-ecommerce-pipeline
 
