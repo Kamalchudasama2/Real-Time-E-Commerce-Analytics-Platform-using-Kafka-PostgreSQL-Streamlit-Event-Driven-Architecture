@@ -150,3 +150,32 @@ The platform simulates how modern organizations process customer transactions in
 * Real-Time Fraud Detection
 
 ---
+# Clone repository
+
+git clone <your-repo-url>
+
+cd real-time-ecommerce-pipeline
+
+# Install dependencies
+
+pip install -r requirements.txt
+
+# Start Kafka & PostgreSQL
+
+docker compose up -d
+
+# Start Flask Website
+
+python app.py
+
+# Start Kafka Consumer
+
+python database/postgres_consumer.py
+
+# Run ETL
+
+python etl/etl_pipeline.py
+
+# Launch Dashboard
+
+python -m streamlit run dashboard/app.py
