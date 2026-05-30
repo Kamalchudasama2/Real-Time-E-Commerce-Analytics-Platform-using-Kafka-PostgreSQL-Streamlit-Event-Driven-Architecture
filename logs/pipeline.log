@@ -1,0 +1,14 @@
+2026-05-31 01:06:32,897 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-05-31 01:06:32,960 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <checking_api_versions_recv> [IPv6 ('::1', 9092, 0, 0)]>: Broker version identified as 2.6
+2026-05-31 01:06:32,960 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-05-31 01:06:32,960 - WARNING - group_id is None: disabling auto-commit.
+2026-05-31 01:06:32,960 - INFO - Updating subscribed topics to: ('ecommerce_orders',)
+2026-05-31 01:06:33,461 - INFO - Kafka Consumer Started
+2026-05-31 01:06:33,490 - INFO - Updated partition assignment: [TopicPartition(topic='ecommerce_orders', partition=0)]
+2026-05-31 01:06:33,490 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2026-05-31 01:06:33,493 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=1 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Connection complete.
+2026-05-31 01:06:33,493 - INFO - <BrokerConnection client_id=kafka-python-2.3.1, node_id=bootstrap-0 host=localhost:9092 <connected> [IPv6 ('::1', 9092, 0, 0)]>: Closing connection. 
+2026-05-31 01:06:33,534 - INFO - Resetting offset for partition TopicPartition(topic='ecommerce_orders', partition=0) to offset 88.
+2026-05-31 01:10:18,196 - INFO - Inserted Order: 6948
+2026-05-31 01:12:53,763 - INFO - Inserted Order: 6339
+2026-05-31 01:26:09,895 - INFO - Inserted Order: 8205
