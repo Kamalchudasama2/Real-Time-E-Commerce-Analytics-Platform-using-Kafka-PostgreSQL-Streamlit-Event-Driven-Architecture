@@ -9,40 +9,8 @@ This project demonstrates modern data engineering concepts including streaming i
 ---
 
 ## Architecture
+<img width="1536" height="1024" alt="architecture" src="https://github.com/user-attachments/assets/fb34b72d-9d8a-47fa-be60-6c19a591aaf2" />
 
-Customer Website (Flask)
-
-↓
-
-Kafka Producer
-
-↓
-
-Kafka Topic (ecommerce_orders)
-
-↓
-
-Kafka Consumer
-
-↓
-
-PostgreSQL (Raw Orders)
-
-↓
-
-ETL Layer
-
-↓
-
-Analytics Tables
-
-* city_sales
-* product_sales
-* daily_sales
-
-↓
-
-Streamlit Dashboard
 
 ---
 
