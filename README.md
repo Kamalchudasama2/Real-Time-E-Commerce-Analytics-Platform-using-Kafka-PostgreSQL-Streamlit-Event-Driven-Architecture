@@ -141,9 +141,9 @@ real-time-ecommerce-pipeline/
 
 ├── etl/
 
-├── templates/
+├── website/templates/
 
-├── static/
+├── website/static/image
 
 ├── logs/
 
